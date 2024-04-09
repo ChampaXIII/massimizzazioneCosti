@@ -1,0 +1,32 @@
+# .gitignore
+
+# Ignora la cartella .idea creata da JetBrains IDEs
+.idea/
+
+# Ignora tutti i file .pyc che vengono generati quando si esegue il codice Python
+*.pyc
+
+# Ignora tutti i file .pyo e .pyd, che sono tipicamente file di output di Python
+*.pyo
+*.pyd
+
+# Ignora tutti i file nella cartella __pycache__, che viene creata da Python
+__pycache__/
+
+# Ignora tutti i file .env, che sono tipicamente utilizzati per le variabili di ambiente
+*.env
+
+# Ignora tutti i file nella cartella .vscode, che viene creata da Visual Studio Code
+.vscode/
+
+# Ignora tutti i file .log
+*.log
+
+# Ignora tutti i file .csv
+*.csv
+
+# Ignora tutti i file .json
+*.json
+
+# Ignora tutti i file .sqlite, che sono database SQLite
+*.sqlite
